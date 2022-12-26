@@ -1,0 +1,27 @@
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10em;
+    font-size: 1.5rem;
+
+    background: grey;
+}
+
+.menu a{
+    color: white;
+}
+
+.menu a:active{
+    text-decoration: none;
+}
+
+.information_p{
+    font-size: 2em;
+}
+
+@media (max-width: 480px){
+    .menu{
+        gap: 5em;
+    }
+}
